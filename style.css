@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+main, main form {
+  background-image: url(02.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  main form {
+    background-image: none;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-color: rgba(0, 0, 0, 0.925);
+    width: 30vw;
+    height: 25vw;
+    position: relative;
+    left: 25vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: 0.2s ease-in;
+    transition: 0.2s ease-in; }
+    main form h1 {
+      color: white;
+      margin-bottom: 2vw; }
+    main form .inner-form {
+      width: auto;
+      height: auto; }
+    main form input {
+      border: none;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.575);
+      background-color: transparent;
+      outline: none;
+      color: white;
+      font-size: 1.4vw;
+      width: 20vw;
+      height: 3vw;
+      margin-bottom: 0.8vw;
+      position: relative;
+      top: 0vw; }
+    main form input:focus {
+      border-bottom: 1px solid white;
+      color: white; }
+    main form input[type="submit"] {
+      border-bottom: none;
+      color: rgba(192, 192, 192, 0.74);
+      font-size: 1.5vw;
+      cursor: pointer; }
+    main form input[type="submit"]:hover {
+      border-bottom: 1px solid white;
+      color: white;
+      -webkit-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+    main form p {
+      color: white;
+      z-index: 5;
+      font-size: 1.5vw;
+      position: relative;
+      top: -0.7vw;
+      left: 0vw; }
+  main form:hover {
+    -webkit-box-shadow: -10px 10px 10px rgba(255, 255, 255, 0.205);
+            box-shadow: -10px 10px 10px rgba(255, 255, 255, 0.205);
+    -webkit-box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.486);
+            box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.486);
+    -webkit-transform: translateY(1vw);
+            transform: translateY(1vw); }
+
+/*# sourceMappingURL=style.css.map */
